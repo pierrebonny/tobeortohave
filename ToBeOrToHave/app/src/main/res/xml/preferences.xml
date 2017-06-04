@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-    <PreferenceCategory android:title="Vos Préférences">
-        <SwitchPreference android:key="switch1"/>
-        <SwitchPreference android:key="switch2"/>
-        <SwitchPreference android:key="switch3"/>
-        <SwitchPreference android:key="switch4"/>
+    <PreferenceCategory android:title="Je souhaite recevoir des notifications concernant :" android:textSize="20px">
+        <SwitchPreferenceCompat android:key="switch1"/>
+        <SwitchPreferenceCompat android:key="switch2"/>
+        <SwitchPreferenceCompat android:key="switch3"/>
     </PreferenceCategory>
 </PreferenceScreen>

@@ -54,22 +54,27 @@
         android:layout_below="@+id/internet"
         android:id="@+id/space4"/>
     <Button
-        android:padding="10dp"
-        android:id="@+id/pointsButton"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="match_parent"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/space4"/>
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:id="@+id/pointsButton"
+        android:layout_below="@+id/space4"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"/>
     <android.support.v4.widget.Space
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_below="@+id/pointsButton"
         android:id="@+id/space5"/>
     <Button
-        android:padding="10dp"
-        android:id="@+id/alertes"
-        android:layout_width="match_parent"
+        android:layout_width="240dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/space5"/>
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:id="@+id/alertes"
+        android:layout_below="@+id/space5"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"/>
 
 </RelativeLayout>
